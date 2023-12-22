@@ -1,0 +1,22 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+p{
+    text-align:center;
+    font-size: 2em;
+    color: burlywood;
+    margin:0px;
+    padding:0px;
+}
+.parent{
+    background-size: 10cm;
+    background-position-x:  ;
+    background-color: chartreuse ;
+    width: 20%;
+    height: 500px;
+    padding: 10px 0px 0px 0px;
+}
+#child{
+    font-family:Arial, Helvetica, sans-serif;
+}

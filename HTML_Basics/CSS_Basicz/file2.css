@@ -1,0 +1,35 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.box1{
+    width:100%;
+    height:300px;
+    background-color:green ;
+    border:6px solid darkgoldenrod;
+    border-radius: 50px;
+    position: relative;
+}
+.box2{
+    width:50%;
+    height:220px;
+    background-color:silver;
+    border:5px dashed maroon;
+    border-radius: 50px;
+    right:0;
+    position:absolute;
+    bottom:0;
+}
+.box3{
+    width:30%;
+    height:170px;
+    background-color:lawngreen;
+    border:6px double black;
+    border-radius: 50px;
+    padding-left:100px;
+    
+}
+.box4{
+    height:1000px;
+    background-color: orchid;
+}

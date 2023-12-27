@@ -1,0 +1,25 @@
+.head{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.Bottom{
+    width: 100%;
+    height:800px;
+    background-color:brown;
+    display: flex;
+}
+.left{
+    width: 30%;
+    height:800px;
+    /* display: inline-block; */
+    background-color: blueviolet;
+ 
+}
+.right{
+    width: 70%;
+    height:800px;
+    /* display: inline-block; */
+    background-color: cornflowerblue;
+   
+}

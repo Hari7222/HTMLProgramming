@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                margin:0;
+                padding: 0;
+            }
+            .container{
+                display: grid;
+                grid-template-areas: "header header header header",
+                "left right right right""left footer footer footer";
+
+            }
+            .header{
+                grid-area: header;
+                background-color: blue;
+                height: 120px;
+            }
+            .left{
+                grid-area: left;
+                background-color: blueviolet;
+                /* width: 30%; */
+                height:500px;
+            }
+            .right{
+                grid-area: right;
+                background-color: brown;
+                /* width: 70%; */
+                height: 500px;
+            }
+            .footer{
+                grid-area: footer;
+                background-color: yellowgreen;
+                height: 150px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="Container">
+            <div class="header">
+                header
+            </div>
+            <div class="left">
+                left
+            </div>
+            <div class="right">
+               right
+            </div>
+            <div class="footer">
+                footer
+            </div>
+        </div>
+    </body>
+</html>

@@ -2,6 +2,21 @@
     width: 100%;
     height: 200px;
     background-color: black;
+    text-align: right; /* Aligns content to the right */
+    padding: 18px; 
+    display: inline-block;
+}
+
+p{
+    text-align: center;
+    color: aqua;
+    display: inline-block;
+    padding-left: 22%;
+    margin-top: 8%;
+    margin-right: 5%;
+}
+h4, li{
+    padding-left: 2%;
 }
 .Bottom{
     width: 100%;

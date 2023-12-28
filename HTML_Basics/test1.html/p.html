@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+            body{
+                font-size: 10px;
+            }
+            .one{
+                color: green;
+                font-size: 2em;
+                font-weight: bold;
+                
+            }
+            .two{
+                color:mediumaquamarine;
+                font-size: 1.5em;
+
+            }
+            .one:hover ,.one:focus{
+                color: black;
+            }
+            .one::after{
+                content:"/-";
+                background-color: aliceblue;
+                color:rgb(30, 0, 255);
+                font-size: 0.5em;
+            }
+            .one::before{
+                content:"Rs";
+                background-color: aliceblue;
+                color:rgb(128, 0, 255);
+                font-size: 0.5em;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <p class="one"><a href="Hello World">6000 only</a></p>
+        <p class="two">Hello India</p>
+        <span class="three">Hello</span><span>Tamilnadu</span>
+    </body>
+</html>
